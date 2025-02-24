@@ -29,7 +29,11 @@
                 Text="Click me" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill" /> 
+            <Button
+                x:Name="btnTela2"
+                Text="Abrir tela 2" 
+                Clicked="btnTela2_Clicked" />
         </VerticalStackLayout>
     </ScrollView>
 
